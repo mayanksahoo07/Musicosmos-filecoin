@@ -141,8 +141,8 @@ function App() {
 
         // This results in a bug which converts all uppercase alphabets in the address to lowercase
         // accounts = await window.ethereum.request({ method: "eth_accounts" });
-        
-        accounts = await ethereum.request({ method: "eth_requestAccounts" });
+           accounts = await web3.current.eth.getAccounts();
+        // accounts = await ethereum.request({ method: "eth_requestAccounts" });
 
         // Load account
         setAccount(accounts[0]);
