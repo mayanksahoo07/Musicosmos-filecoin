@@ -1,5 +1,5 @@
 {
-    "SERVER_URL": "",
+    "SERVER_URL": "https://musicosmos-filecoin.vercel.app",
     "STREAM_API_KEY": "23emwtgsj8ja",
     "BLOCKCHAIN_NETWORK_ID": 80001,
     "SPOTIFY_CLIENT_ID": "45dde73294d9439184dbc4149bf51e1f",
