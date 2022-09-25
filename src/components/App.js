@@ -56,7 +56,7 @@ function App() {
     var web3 = useRef();
 
     const ipfs = ipfsClient({
-        host: "ipfs.infura.io",
+        host: "ipfs-infura.io",
         port: 5001,
         protocol: "https",
     });
